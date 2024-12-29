@@ -36,9 +36,9 @@ Assurez-vous d’avoir :
 
 ### **2. Reproduire les analyses et prédictions**
 L’ensemble des analyses est orchestré par le fichier `main.ipynb`. Ce notebook exécute :
-1. **`stats.ipynb`** (analyses statistiques descriptives).
-2. **`econometrie.ipynb`** (modèle économétrique).
-3. **`xgboost.ipynb`** (modèle machine learning).
+1. "Statistiques\stats.ipynb" (analyses statistiques descriptives).
+2. "Prediction\Econometrie\econometrie.ipynb" (modèle économétrique).
+3. "Prediction\XGBoost\xgboost.ipynb" (modèle machine learning).
 
 Pour lancer le projet :
 - Clonez ce dépôt GitHub.
@@ -46,39 +46,13 @@ Pour lancer le projet :
 
 ---
 
-## **Données**
-### **Sources**
-- **France Travail** et **What The Jungle**.
-- Les variables collectées incluent :  
-  - Salaire brut annuel.
-  - Domaine d’activité.
-  - Localisation géographique.
-  - Niveau d’études requis.
-  - Années d’expérience demandées.
-  - Type de contrat.
-
-### **Stockage des données**
-Les données combinées sont stockées dans `Recuperation_data/combined_dataset.csv`. Les étapes de préparation des données sont détaillées dans le notebook `combine_FT_Wtj.ipynb`.
+### Stockage des données
+Les données combinées sont stockées dans `Recuperation_data/combined_dataset.csv`. Les étapes de préparation des données sont détaillées dans les dossiers "Recuperation_data\France_Travail\" et "Recuperation_data\Wtj\"
 
 ---
 
-## **Résultats et Insights**
-### **Analyses descriptives**
-- Comparaison des salaires par domaine et localisation.
-- Corrélation entre études, expérience et salaire.
-- Carte interactive des opportunités d’emploi.
-
-### **Prédictions**
-- Modèle économétrique pour interpréter les facteurs influençant le salaire.
-- Modèle XGBoost pour prédire les salaires avec précision.
-
+## Contributeurs
+- Nawal SAIMANE
+- Victorien MARETTE
+- Romain LI 
 ---
-
-## **Contributeurs**
-- **[Nom 1]**  
-- **[Nom 2]**  
-- **[Nom 3]**
-
----
-
-Si vous souhaitez des ajustements ou un format différent pour le `README.md`, faites-le-moi savoir ! 😊
