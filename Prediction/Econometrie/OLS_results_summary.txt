@@ -4,7 +4,7 @@ Dep. Variable:         salaire_annuel   R-squared:                       0.479
 Model:                            OLS   Adj. R-squared:                  0.470
 Method:                 Least Squares   F-statistic:                     52.32
 Date:                Sun, 29 Dec 2024   Prob (F-statistic):               0.00
-Time:                        21:29:08   Log-Likelihood:            -1.2041e+05
+Time:                        22:18:56   Log-Likelihood:            -1.2041e+05
 No. Observations:               11561   AIC:                         2.412e+05
 Df Residuals:                   11360   BIC:                         2.427e+05
 Df Model:                         200                                         
