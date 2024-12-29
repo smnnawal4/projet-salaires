@@ -6,3 +6,4 @@ regex
 scikit-learn
 xgboost
 nb_convert
+unidecode
