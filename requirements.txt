@@ -5,3 +5,4 @@ seaborn
 regex
 scikit-learn
 xgboost
+nb_convert
