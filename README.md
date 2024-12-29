@@ -34,7 +34,7 @@ Assurez-vous d’avoir :
 - Python
 - Les packages listés dans `requirements.txt`.
 
-### **2. Reproduire les analyses et prédictions**
+###*2. Reproduire les analyses et prédictions
 L’ensemble des analyses est orchestré par le fichier `main.ipynb`. Ce notebook exécute :
 1. "Statistiques\stats.ipynb" (analyses statistiques descriptives).
 2. "Prediction\Econometrie\econometrie.ipynb" (modèle économétrique).
@@ -43,7 +43,7 @@ L’ensemble des analyses est orchestré par le fichier `main.ipynb`. Ce noteboo
 Pour lancer le projet :
 - Clonez ce dépôt GitHub.
 - Ouvrez et exécutez le fichier `main.ipynb`.
-
+- Le résultats seront exporté dans un nouveau dossier "resultat\" avec les 3 fichier ipynb exécutés
 ---
 
 ### Stockage des données

@@ -2,8 +2,12 @@ pandas
 numpy
 matplotlib
 seaborn
-regex
+re
 scikit-learn
 xgboost
 nb_convert
 unidecode
+json
+csv
+requests
+time
