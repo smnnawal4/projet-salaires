@@ -34,11 +34,12 @@ Assurez-vous d’avoir :
 - Python
 - Les packages listés dans `requirements.txt`.
 
-###*2. Reproduire les analyses et prédictions
+### 2. Reproduire les analyses et prédictions
 L’ensemble des analyses est orchestré par le fichier `main.ipynb`. Ce notebook exécute :
-1. "Statistiques\stats.ipynb" (analyses statistiques descriptives).
-2. "Prediction\Econometrie\econometrie.ipynb" (modèle économétrique).
-3. "Prediction\XGBoost\xgboost.ipynb" (modèle machine learning).
+1. le fichier qui va générer le dataframe sur lequel on va travailler (pas la partie récupération mais toute la partie traitement !)
+2. "Statistiques\stats.ipynb" (analyses statistiques descriptives).
+3. "Prediction\Econometrie\econometrie.ipynb" (modèle économétrique).
+4. "Prediction\XGBoost\xgboost.ipynb" (modèle machine learning).
 
 Pour lancer le projet :
 - Clonez ce dépôt GitHub.
@@ -47,7 +48,7 @@ Pour lancer le projet :
 ---
 
 ### Stockage des données
-Les données combinées sont stockées dans `Recuperation_data/combined_dataset.csv`. Les étapes de préparation des données sont détaillées dans les dossiers "Recuperation_data\France_Travail\" et "Recuperation_data\Wtj\"
+Les données combinées sont stockées dans `Recuperation_data/combined_dataset.csv`. Les étapes de préparation des données sont détaillées dans les dossiers "Recuperation_data\France_Travail\".
 
 ---
 
