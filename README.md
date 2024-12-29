@@ -18,7 +18,6 @@ Ce dossier contient :
 - `France_Travail/` et `Wtj/` : Scripts de scraping pour collecter et compléter les catégories à l'aide des dees données ainsi que des descriptions en utilisant regex. Cette partie étant longue, nous avons garder juste les fichiers csv finaux : `offres_emploi_concatene_cleaned.csv` et `dataset_wtj_cleaned.csv`
 
 ### 2.`Statistique`
-- `Carte_interactive.ipynb` : Notebook pour créer une carte interactive des offres d’emploi en fonction de leur localisation.
 - `stats.ipynb` : Notebook contenant des analyses statistiques descriptives (salaires par domaine, région, corrélations, etc.).
 
 ### 3.`Prediction`
